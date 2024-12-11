@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrollbar</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img id="logo-kelas" src="profil kelas.jpg">
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Game</a></li>
+
+        </ul>
+    </nav>
+    <br>
+
+    <section class="xi-6">
+
+        <div class="search">
+            <input type="search" id="searchbar" placeholder="Cari...." onkeyup="search()">
+
+            <button id="buttonsrc" type="submit"> <img id="search-logo" src="search logo.png">
+        </div>
+
+        <br>
+
+        <div class="Murid" id="Murid">
+
+
+            <view jaya>
+
+                <div class="card" id="card1">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/profiljaya.jpg" class="profile">
+                    <h2 id="jayakun">Jayakun</h2>
+                    <p id="devweb">Developer Website</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+
+
+
+                    <div class="Send-massage">
+                        <button type="submit" class="btn" onclick="openPopup()">Send Message</button>
+                        <div class="popup" id="popup">
+                            <img src="thingkingface_emoji.png">
+                            <h2>Kirim Sebagai Siapa?</h2>
+                            <div class="pilih-sebagai-apa">
+                                <input type="radio" name="gender" value="male" /> anonymous or
+                                <br>
+                                <input type="radio" name="gender" value="female" />
+                                with ur name
+                            </div>
+
+                            <p>cieee.....</p>
+                            <button type="submit" onclick="closePopup()">oke</button>
+                        </div>
+                    </div>
+
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view rehan>
+                <div class="card" id="card1">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/rehanprofile.jpg" class="profile">
+                    <h2 id="jayakun">Raehan</h2>
+                    <p id="devweb">StarBoy</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view izzant>
+                <div class="card" id="card2">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/izzantprofile.jpg" class="profile">
+                    <h2 id="jayakun">Izzant</h2>
+                    <p id="devweb">RF17</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view kemal>
+
+                <div class="card" id="card3">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/kemalprofile.jpg" class="profile">
+                    <h2 id="jayakun">Kemal</h2>
+                    <p id="devweb">Ketua Kelas</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view albi>
+
+                <div class="card" id="card4">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/albiprofil.jpg" class="profile">
+                    <h2 id="jayakun">Albi</h2>
+                    <p id="devweb">NPC</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view alis>
+
+                <div class="card" id="card5">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Alis</h2>
+                    <p id="devweb"></p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view valia>
+
+                <div class="card" id="card6">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/veliaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Velia</h2>
+                    <p id="devweb">Rajendra</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view alina>
+
+                <div class="card" id="card7">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Alina</h2>
+                    <p id="devweb">Webtoon Reader</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view nisa>
+
+                <div class="card" id="card8">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/annisaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Anisa</h2>
+                    <p id="devweb">Berisik</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view arimibi>
+
+                <div class="card" id="card9">
+                    <img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Rimbi</h2>
+                    <p id="devweb">Mbohhh</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view adel>
+
+                <div class="card" id="card10"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/adelprofile.jpg" class="profile">
+                    <h2 id="jayakun">Adel</h2>
+                    <p id="devweb">Y</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view azzura>
+
+                <div class="card" id="card11"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/azzuraprofile.jpg" class="profile">
+                    <h2 id="jayakun">Azzura</h2>
+                    <p id="devweb">Raejoss</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view bening>
+
+                <div class="card" id="card12"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Agis</h2>
+                    <p id="devweb">Iyechhh</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button" class="tombolSM">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view kiki>
+
+                <div class="card" id="card13"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/kikiprofile.jpg" class="profile">
+                    <h2 id="jayakun">Kiki</h2>
+                    <p id="devweb">Dzaki Yudistira</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view yusuf>
+
+                <div class="card" id="card14"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/yusufprofile.jpg" class="profile">
+                    <h2 id="jayakun">Yusuf</h2>
+                    <p id="devweb">Mas</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view gadiza>
+
+                <div class="card" id="card15"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/gadizaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Gadiza</h2>
+                    <p id="devweb">Hahahha</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view henokh>
+
+                <div class="card" id="card16"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/henokhprofile.jpg" class="profile">
+                    <h2 id="jayakun">Henokh</h2>
+                    <p id="devweb">Anak Emel</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view hilwa>
+
+                <div class="card" id="card17"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/hilwaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Hilwa</h2>
+                    <p id="devweb">Ambis</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view irfan>
+
+                <div class="card" id="card18"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/irfanprofile.jpg" class="profile">
+                    <h2 id="jayakun">Irfan</h2>
+                    <p id="devweb">EXE</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view raja>
+
+                <div class="card" id="card19"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Raja</h2>
+                    <p id="devweb">Xavier</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view raka>
+
+                <div class="card" id="card20"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/rakaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Raka</h2>
+                    <p id="devweb">Akar</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view maula>
+
+                <div class="card" id="card21"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/maulaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Maula Rafi</h2>
+                    <p id="devweb">Onge</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view meileni>
+
+                <div class="card" id="card22"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Mei</h2>
+                    <p id="devweb">Cosplayer</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view michelle>
+
+                <div class="card" id="card23"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/michlleprofile.jpg" class="profile">
+                    <h2 id="jayakun">Michelle</h2>
+                    <p id="devweb">celeng</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view farel>
+
+                <div class="card" id="card24"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/farelprofile.jpg" class="profile">
+                    <h2 id="jayakun">Farrel</h2>
+                    <p id="devweb">Iyesss</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view firdaus>
+
+                <div class="card" id="card25"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/none.jpg" class="profile">
+                    <h2 id="jayakun">Rafi Firdaus</h2>
+                    <p id="devweb">Enyelll</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view naila>
+
+                <div class="card" id="card26"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/nailaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Naila</h2>
+                    <p id="devweb">Naon</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view abi>
+
+                <div class="card" id="card27"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/abiprofile.jpg" class="profile">
+                    <h2 id="jayakun">Abi</h2>
+                    <p id="devweb">Nanda Raya</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view prabu>
+                <div class="card" id="card28"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/PrabuProfile.jpg" class="profile">
+                    <h2 id="jayakun">Prabu</h2>
+                    <p id="devweb">Santai Tapi Tidak Lalai</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view queen>
+
+                <div class="card" id="card29"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/queenprofile.jpg" class="profile">
+                    <h2 id="jayakun">Queen</h2>
+                    <p id="devweb">Kukang</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view jaya>
+
+                <div class="card" id="card30"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/jayaprofile.jpg" class="profile">
+                    <h2 id="jayakun">jaya lagi</h2>
+                    <p id="devweb">Ukhtie Hunter</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view rajendra>
+
+                <div class="card" id="card31"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/rajenprofile.jpg" class="profile">
+                    <h2 id="jayakun">Rajendra</h2>
+                    <p id="devweb">Rahenn</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view rosada>
+
+                <div class="card" id="card32"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="rehanprofile.jpg" class="profile">
+                    <h2 id="jayakun">Rosada</h2>
+                    <p id="devweb">Pendek</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view sasha>
+                <div class="card" id="card33"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/sashaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Sasha</h2>
+                    <p id="devweb">Temennya tata</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Sasha</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view tabina>
+
+                <div class="card" id="card34"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/tabinaprofile.jpg" class="profile">
+                    <h2 id="jayakun">Tabina</h2>
+                    <p id="devweb">Temennya Sasha</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view yasmin>
+                <div class="card" id="card35"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/yasminprofile.jpg" class="profile">
+                    <h2 id="jayakun">Yasmin</h2>
+                    <p id="devweb">Abidin</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+            <view mubarok>
+                <div class="card" id="card36"><img src="Menu logo.png" class="menu">
+                    <img src="settinglogo.png" class="setting">
+                    <img src="profil/mubarokprofile.jpg" class="profile">
+                    <h2 id="jayakun">Mubarok</h2>
+                    <p id="devweb">Play Boy</p>
+
+                    <div class="medsos">
+                        <img src="spotify logo_.png" class="spotify">
+                        <img src="instagramlogo.png" class="ig">
+                        <img src="tiktoklogo.png" class="tiktok">
+                    </div>
+                    <button type="button">Send Me</button>
+                    <div class="profile-bottom">
+                        <p>Terimakasih Atas Support Kalian Semua<br>
+                            <3 </p>
+                    </div>
+                </div>
+            </view>
+        </div>
+        <br>
+    </section>
+    <br>
+
+    <p>garis bantu</p>
+</body>
+
+</html>
